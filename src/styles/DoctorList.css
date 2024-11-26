@@ -1,0 +1,99 @@
+/* DoctorList.css
+.doctor-list-container {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .doctor-item:last-child {
+    border-bottom: none;
+  }
+  
+  .doctor-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .queue-length {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .add-to-queue-btn {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-to-queue-btn:hover {
+    background-color: #218838;
+  }
+   */
+
+   .doctor-list {
+    margin: 30px auto;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+  }
+  
+  .doctor-list h2 {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .doctor-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .doctor-list th,
+  .doctor-list td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .doctor-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .doctor-list tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .doctor-list button {
+    padding: 8px 14px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .doctor-list button:hover {
+    background-color: #218838;
+  }
+  

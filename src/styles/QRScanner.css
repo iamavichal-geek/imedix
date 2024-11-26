@@ -1,0 +1,65 @@
+/* QRScanner.css
+.qr-scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .qr-scanner-video {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .scan-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .scan-btn:hover {
+    background-color: #0056b3;
+  }
+   */
+
+   .qr-scanner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .qr-scanner-container video {
+    width: 100%;
+    border: 2px solid #007bff;
+    border-radius: 12px;
+  }
+  
+  .scan-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .scan-btn:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,39 @@
+.landing-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .landing-header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .landing-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 26px;
+    margin: 0;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .login-section {
+    flex: 1;
+    max-width: 40%;
+  }
+  
+  .doctors-section {
+    flex: 1;
+    max-width: 55%;
+  }
+  

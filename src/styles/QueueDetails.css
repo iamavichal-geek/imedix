@@ -1,0 +1,28 @@
+/* QueueDetails.css */
+.queue-details-container {
+    margin: 20px auto;
+    max-width: 500px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .queue-details-header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .queue-info {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .current-queue-length {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  

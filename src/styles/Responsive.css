@@ -1,0 +1,17 @@
+/* Responsive.css */
+@media only screen and (max-width: 768px) {
+    .login-section {
+      flex-direction: column;
+    }
+  
+    .login-form,
+    .doctor-list {
+      margin: 0;
+      flex: none;
+    }
+  
+    .doctor-list {
+      margin-top: 20px;
+    }
+  }
+  
